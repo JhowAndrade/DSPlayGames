@@ -7,8 +7,6 @@
 --color-light-gray: #F0F0F0;
 --color-light-red: #DD7E92;
 --color-dark-grey: #383838;
---color-naosei: #E5E5E5;
-
 }
 
 *{
@@ -21,7 +19,7 @@
 header{
     background-color: var(--color-green);
     height: 90px;
-    border-bottom: 5px groove;
+    border-bottom: 3px groove;
 }
 
 .container{
@@ -44,7 +42,7 @@ h1{
     font-size: 24px;
 }
 
-img{
+.profile img{
     width: 62px;
     height: 62px;
 }
@@ -54,8 +52,7 @@ img{
 
 .itens-link{
     margin: 0 2px;
-    float: right;
-    align-items: center;
+    float: left;
     margin: 34px 14px;
 }
 
@@ -69,6 +66,10 @@ img{
 
 .itens{
     margin-right: 29px;
+}
+
+#lastNews{
+    background-color: var(--color-white);
 }
 
 .news{
@@ -86,7 +87,7 @@ img{
     background-color: var(--color-light-gray);
     border-radius: 8px;
     margin: 40px 0;
-    border-bottom: 5px groove;
+    border-bottom: 2px groove;
 }
 
 .informations a{
@@ -141,8 +142,200 @@ img{
     text-align: center;
     padding: 20px 0;
 }
+
 #more a{
     color: var(--color-white);
     font-size: 18px;
     font-weight: bold;
 }
+
+#typesGames{
+    background-color: var(--color-light-gray);
+}
+
+.card{
+    justify-content: space-between;
+}
+
+.games{
+    padding: 32px 0;
+    text-align: center;
+}
+
+.games h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.cardGame{
+    border-radius: 8px;
+    background-color: var(--color-white);
+    margin: 62px 15px 70px 0;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.cardGame img{
+width: 300px;
+height: 169px;
+border-radius: 8px 8px 0 0;
+}
+
+.cardGame h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-gray);
+    line-height: 27px;
+}
+
+.cardGame p{
+    font-size: 12px;
+    color: var(--color-green);
+    line-height: 18px;
+}
+
+.cardGame strong{
+    font-size: 14px;
+    line-height: 21px;
+    font-style: bold;
+}
+
+.cardGame h5{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+#incription{
+    display: flex;
+}
+
+.inscriptionTitle{
+    background-color: var(--color-white);
+}
+
+.inscriptionTitle h2{
+    font-size: 36px;
+    color: var(--color-gray);
+    font-weight: bold;
+    margin: 39px 0;
+    text-align: center;
+}
+
+.cardForm{
+    background-color: var(--color-light-gray);
+    border-radius: 8px;
+    width: 790px;
+    height: 522px;
+    border-bottom: 2px groove;
+    margin-bottom: 60px;
+}
+
+.cardName{
+   box-sizing: border-box;
+   width: 642px;
+   height: 50px;
+   border: 1px solid var(--color-gray);
+   border-radius: 4px; 
+   margin: 52px 74px 10px 74px;
+}
+
+.cardEmail{
+    box-sizing: border-box;
+    width: 642px;
+    height: 50px;
+    border: 1px solid var(--color-gray);
+    border-radius: 4px; 
+    margin: 10px 74px 10px 74px;
+ }
+
+
+ .formSelect{
+    color: var(--color-gray);
+    font-size: 16px;
+    align-items: center;
+    margin-left: 72px;
+ }
+
+ .select{
+    color: var(--color-gray);
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 72px;
+ }
+
+ .fornNews{
+    font-size: 16px;
+    margin: 30px 0 38px 72px;
+    color: var(--color-gray);
+ }
+
+ .submitReset{
+    justify-content: center;
+ }
+ 
+ #botSubmit{
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    margin-left: 125px;
+    margin-right: 22px ;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: var(--color-light-red);
+    background-color: var(--color-light-red);
+    color: var(--color-white);
+   
+ }
+
+ #botReset{
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    margin-left: 22px;
+    margin-right: 125px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--color-white);
+    color: var(--color-light-red);
+    border-style: solid ;
+    border-color: var(--color-light-red);
+ }
+
+footer{
+    background-color: var(--color-dark-grey);
+    height: 190px;
+}
+
+.socialMedia{
+    margin-top: 72px;
+    text-align: center;
+}
+
+.linkHelp a{
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.reserved{
+    margin-top: 84px;
+    align-items: center;
+}
+
+.reserved p{
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.terms{
+    margin-top: 72px;
+    text-align: center;
+}
+
+
+
+
+
